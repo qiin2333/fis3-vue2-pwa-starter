@@ -19,7 +19,7 @@ var config = {
         host: 'xxx',
         port: 'xxx',
         username: 'xxx',
-        password: 'PkKgX8bA',
+        password: 'xxx',
         sourcePath: './fis-dist',
         remotePath: '/data/app/xxx'
     }
