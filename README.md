@@ -10,8 +10,8 @@ demo
 ├── dep/                    三方依赖资源（非NPM安装）
 ├── mock/                   mock配置
 ├── node_modules/
-├── src/
-    ├── components/               基础公用组件
+└── src/
+    ├── components/         基础公用组件
     ├── common/             其他通用资源（样式变量/模板）
     ├── lib/                零散的业务使用三方库（非模块化）
     ├── page/               页面vue组件

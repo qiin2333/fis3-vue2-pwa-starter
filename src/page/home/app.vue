@@ -5,7 +5,6 @@
         <router-view class="app-view"></router-view>
     </transition>
     <!-- <Footer v-if="showFooter"></Footer> -->
-    <div class="hidden-sm-and-up" style="height: 48px"></div>
 </div>
 </template>
 
