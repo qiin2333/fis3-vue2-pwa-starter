@@ -20,7 +20,7 @@ demo
 ├── utils/                  辅助工具
 ├── deploy.js               远程部署配置
 ├── workbox-cli-config.js   workbox-build配置
-├── .babelrc, .editorconfig, .fecsignore, .fecsrc, .gitignore
+├── .editorconfig, .gitignore
 └── LINCENSE, package.json, README.md
 ```
 
@@ -36,6 +36,7 @@ demo
 npm install
 
 # 在本地启动调试 server
+fis3 server start
 npm run dev
 
 # 构建测试环境产物并推送到测试服务器
