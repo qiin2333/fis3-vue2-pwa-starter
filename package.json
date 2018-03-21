@@ -34,7 +34,7 @@
     "fis3-hook-node_modules": "^2.2.8",
     "fis3-packager-deps-pack": "^0.1.2",
     "fis3-parser-vue-component": "^5.5.1",
-    "fis3-postpackager-loader": "^2.1.10",
+    "fis3-postpackager-loader-pwa": "^1.0.2",
     "fis3-postpackager-sw-register": "^1.0.5",
     "fis3-preprocessor-js-require-css": "^0.1.1",
     "fis3-preprocessor-js-require-file": "^0.1.3",

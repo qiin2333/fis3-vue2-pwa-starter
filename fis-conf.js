@@ -77,10 +77,11 @@ function buildProd(context) {
                     // swPrefix: '/sw',
                     fallbackFilePath: '/static/sw-fallback.js'
                 }),
-                fis.plugin('loader', {
+                fis.plugin('loader-pwa', {
                     resourceType: 'mod',
                     useInlineMap: true,
                     resourcemapWhitespace: 4,
+                    preload: true,  // 开启资源preload
                     allInOne: {
                         js: function (file) {
                             return "/build/pkg/" + file.subpathNoExt.match(/\/src\/page(\/.*)?/)[1] + ".aio.js";
