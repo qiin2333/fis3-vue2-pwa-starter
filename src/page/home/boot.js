@@ -23,7 +23,9 @@ const router = new VueRouter({
 })
 
 new Vue({
-    el: '#app',
-    render: h => h(App),
-    router
+    // store
+    router,
+    ...App
 });
+
+setTimeout(() => app.$mount('#app'), 0);
