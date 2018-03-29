@@ -9,9 +9,7 @@ var chalk = require('chalk');
 
 function buildTest(context) {
     return context.match('/config/test.js', {
-            id: 'config',
-            isMod: true,
-            release: '/static/$0'
+            id: 'config'
         })
         .match('**.png', {
             optimizer: fis.plugin('png-compressor')
@@ -39,9 +37,7 @@ function buildTest(context) {
 
 function buildProd(context) {
     return context.match('/config/production.js', {
-            id: 'config',
-            isMod: true,
-            release: '/static/$0'
+            id: 'config'
         })
         .match('**.png', {
             optimizer: fis.plugin('png-compressor')
@@ -185,7 +181,7 @@ fis.match('/src/page/(**)', {
     isMod: true,
     useSameNameRequire: true,
     release: '/$1'
-}).match('{/src/(**.js),/api/(**.js)}', {
+}).match('{/src/(**.js),/api/(**.js),(/config/**.js)}', {
     isMod: true,
     release: '/static/$1'
 });
@@ -197,9 +193,7 @@ fis.match('/dep/**', {
 });
 
 fis.match('/config/development.js', {
-    id: 'config',
-    isMod: true,
-    release: '/static/$0'
+    id: 'config'
 });
 
 fis.match('/dep/mod.js', {

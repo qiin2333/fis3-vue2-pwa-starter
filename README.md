@@ -11,13 +11,14 @@ demo
 ├── mock/                   mock配置
 ├── node_modules/
 └── src/
+    ├── api/                接口定义
     ├── components/         基础公用组件
     ├── common/             其他通用资源（样式变量/模板）
     ├── lib/                零散的业务使用三方库（非模块化）
     ├── page/               页面vue组件
-    └── store/              vuex
+    ├── store/              vuex
+    └── utils/              tools、filters
 ├── static/                 静态资源
-├── utils/                  辅助工具
 ├── deploy.js               远程部署配置
 ├── workbox-cli-config.js   workbox-build配置
 ├── .editorconfig, .gitignore

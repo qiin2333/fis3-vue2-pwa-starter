@@ -3,4 +3,8 @@
  * @author zhouqing02
  */
 
-export const URI_ROOT = '';
+import * as baseConf from './base.js';
+
+module.exports = Object.assign(baseConf, {
+    API_ROOT: ''
+});
