@@ -13,8 +13,8 @@ const router = new VueRouter({
     routes: []
 })
 
-new Vue({
-    // store
+let app = new Vue({
+    // store,
     router,
     ...App
 });

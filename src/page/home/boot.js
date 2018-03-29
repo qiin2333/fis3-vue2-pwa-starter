@@ -22,10 +22,11 @@ const router = new VueRouter({
     ]
 })
 
-new Vue({
-    // store
+let app = new Vue({
+    // store,
     router,
     ...App
 });
 
+// https://huangxuan.me/2017/07/12/upgrading-eleme-to-pwa/#fast-skeleton-painting-with-settimeout-hack
 setTimeout(() => app.$mount('#app'), 0);

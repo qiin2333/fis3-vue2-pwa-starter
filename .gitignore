@@ -1,7 +1,9 @@
-/node_modules
+node_modules/
 /fis-dist
-package-lock.json
-npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json*
 .idea
 .DS_Store
 BCLOUD
