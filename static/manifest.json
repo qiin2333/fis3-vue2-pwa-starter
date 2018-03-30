@@ -4,22 +4,22 @@
     "short_name": "fis3-vue2-pwa-starter",
     "icons": [
         {
-            "src": "img/icons/android-chrome-512x512.png",
+            "src": "img/standalone/android-chrome-512x512.png",
             "type": "image/png",
             "sizes": "512x512"
         },
         {
-            "src": "img/icons/android-chrome-192x192.png",
+            "src": "img/standalone/android-chrome-192x192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "img/icons/apple-touch-icon-180x180.png",
+            "src": "img/standalone/apple-touch-icon-180x180.png",
             "type": "image/png",
             "sizes": "180x180"
         },
         {
-            "src": "img/icons/apple-touch-icon-152x152.png",
+            "src": "img/standalone/apple-touch-icon-152x152.png",
             "type": "image/png",
             "sizes": "152x152"
         }

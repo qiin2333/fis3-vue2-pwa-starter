@@ -61,7 +61,7 @@ function buildProd(context) {
         .match('/src/**.{vue,js,css}', {
             useHash: true
         })
-        .match('{sw-register.js, sw-fallback.js, *.ico, /static/img/icons/**}', {
+        .match('{sw-register.js, sw-fallback.js, *.ico, /static/img/standalone/**}', {
             useHash: false
         })
         .match('::packager', {
@@ -160,7 +160,7 @@ fis.hook('commonjs', {
     baseUrl: './',
     paths: {
         '@': '/src',
-        component: '/src/component',
+        component: '/src/components',
         echarts: '/src/lib/echarts.min.js' // 定制版echarts
     },
     extList: ['.js', '.jsx', '.es']
