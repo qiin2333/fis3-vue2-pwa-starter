@@ -9,6 +9,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="fis3-vue2-pwa-starter">
     <link rel="apple-touch-icon" href="/static/img/standalone/apple-touch-icon-180x180.png">
-    <link rel=apple-touch-startup-image href=/static/img/standalone/apple-launch-750x1334.png>
+    <link rel=apple-touch-startup-image media="(device-width: 320px)" href=/static/img/standalone/apple-launch-640x1136.png>
+    <link rel=apple-touch-startup-image media="(device-width: 375px)" href=/static/img/standalone/apple-launch-750x1334.png>
+    <link rel=apple-touch-startup-image media="(device-width: 414px)" href=/static/img/standalone/apple-launch-1242x2208.png>
+    <link rel=apple-touch-startup-image media="(device-width: 768px)" href=/static/img/standalone/apple-launch-1536x2048.png>
 
     <link rel="stylesheet" href="@/common/css/reset.less">

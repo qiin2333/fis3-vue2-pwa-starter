@@ -263,7 +263,7 @@ fis.match('*.{js,vue,jsx,ts,tsx,es}', {
 
 fis.match('::packager', {
     // packager: fis.plugin('deps-pack', getDepsPackOptions()),
-    postpackager: fis.plugin('loader', {
+    postpackager: fis.plugin('loader-pwa', {
         resourceType: 'mod',
         useInlineMap: true,
         resourcemapWhitespace: 4
