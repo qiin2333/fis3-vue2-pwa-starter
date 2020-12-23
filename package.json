@@ -13,7 +13,7 @@
     "store": "^2.0.12",
     "vue": "^2.5.13",
     "vue-loading-template": "^0.1.7",
-    "vue-moment": "^3.2.0",
+    "vue-moment": "^4.1.0",
     "vue-router": "^3.0.1",
     "vue-swipe": "^2.3.0"
   },
